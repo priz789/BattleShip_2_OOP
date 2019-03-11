@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Cell::Cell(int _x = 0, int _y = 0, int _status = 0)
+Cell::Cell(int _x, int _y, int _status)
 {
 	x = _x;
 	y = _y;

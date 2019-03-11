@@ -38,5 +38,7 @@ int Player::GetY()
 }
 
 
-bool Player::WinloseCheck()
-{}
+bool Player::WinLoseCheck()
+{
+	return 0;
+}

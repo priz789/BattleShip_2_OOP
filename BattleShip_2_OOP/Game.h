@@ -11,5 +11,6 @@ public:
 	~Game();
 	void GameTurn(Player* _P);
 	bool WinLoseCheck(Player* _P);
+	void EndGame();
 };
 

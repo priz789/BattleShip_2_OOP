@@ -2,12 +2,12 @@
 
 using namespace std;
 
-Deck::Deck(int _x = 0, int _y = 0, int _status = 0, int _deckNum = 0)
+Deck::Deck(int _x, int _y, int _status, int _deckNum)
 {
-	deckNum = _deckNum;
 	x = _x;
 	y = _y;
 	status = _status;
+	deckNum = _deckNum;
 }
 
 

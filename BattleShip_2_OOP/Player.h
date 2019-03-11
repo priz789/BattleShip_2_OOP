@@ -17,6 +17,6 @@ public:
 	void SetY(int _y);
 	int GetX();
 	int GetY();
-	bool WinloseCheck();
+	bool WinLoseCheck();
 };
 

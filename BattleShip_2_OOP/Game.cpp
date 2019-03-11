@@ -14,26 +14,26 @@ Game::~Game()
 }
 
 
-void GameTurn(Player* _P)
+void Game::GameTurn(Player* _P)
 {
 	if (!WinLoseCheck(_P))
 	{
-		// gameTurn realization 
+		return; // gameTurn realization 
 	}
 	else
 	{
-		EndGame();
+		Game::EndGame();
 	}
 }
 
 
-bool WinLoseCheck(Player* _P)
+bool Game::WinLoseCheck(Player* _P)
 {
 	return _P->WinLoseCheck();
 }
 
 
-void EndGame()
+void Game::EndGame()
 {
-	// EndGame realization
+	return;// EndGame realization
 }
